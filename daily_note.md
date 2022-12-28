@@ -80,3 +80,35 @@ SW아카데미에서 살아남으려면 좀 더 부지런해야겠다..!<br>
 또.. Springboot만 지원하는 그런 기능들이 있는데, 기본적으로 실습프로젝트는 Spring 프로젝트다. @Enable어쩌구 이런걸로 Enable시켜서 사용해보기도 했다. 굉장히 다양한 실습을 했고.. 이런게 있구나를 알게되어서 좋다.
 
 
+<br>
+<br>
+2022-12-28-wed
+
+오늘 하루종일 ObjectInputStream 관련된 부분 문제해결했다.<br>
+https://splendidlolli.tistory.com/549<br>
+└> 여기 정리해둠<br>
+
+
+<br>
+<br>
+2022-12-29-thu
+
+
+<br>
+<br>
+2022-12-30-fri
+
+
+<br>
+<br>
+2022-12-31-sat
+
+
+
+<br>
+<br>
+2023-01-01-sun
+
+
+
+
