@@ -8,4 +8,4 @@ OSI 7계층은 네트워크를 구성하는 표준 계층 중 하나다.
 
 
 
-![OSI_7_layer](./img/OSI_7_layer.png)
+![OSI_7_layer](../img/OSI_7_layer.png)
