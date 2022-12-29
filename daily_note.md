@@ -93,6 +93,9 @@ https://splendidlolli.tistory.com/549<br>
 <br>
 2022-12-29-thu
 
+*네트워크 실습 : HTTP srever using TCP socket*
+> 간단히 같은 팀원이 띄워둔 서버로 접속해보고, 내 서버로 접속하는 패킷을 캡쳐도 해봤다.
+
 
 <br>
 <br>
