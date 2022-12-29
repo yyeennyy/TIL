@@ -14,6 +14,7 @@ OSI 7계층은 네트워크를 구성하는 표준 계층 중 하나다.
 
 **(Layer 3,2,1) Internet + Network Interface : 데이터통신**
 
+<br><br><br>
 
 1. 물리 계층
     > 하드웨어 전송 기술! 비트 신호 (0, 1) 통신! <br>
@@ -32,7 +33,7 @@ OSI 7계층은 네트워크를 구성하는 표준 계층 중 하나다.
     └> 헤더 => 발신지, 목적지의 논리주소<br>
     IP주소 제공<br>
     (관련 장비 : 라우터, 스위치)<br>
-    ![networt_layer_about_addr](../img/networt_layer_about_addr.png)<br>
+    ![networt_layer_about_addr](../img/networt_layer_about_addr.png)
     └> 라우팅해가는 주소를 관찰해보면, ip주소(네트워크주소)는 변하지 않는다. 전체네트워크에서 나를 구별해주는 주소가 바뀌면 안되니까. 그런데 물리주소는 계속 변함. 내 데이터를 잘 보내줄 수 있는 애를 찾아서 계속 나아가는 것임!
 
 
