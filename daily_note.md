@@ -25,7 +25,9 @@ OS가 프로세스 관리하는 거랑 쓰레드.. 공부했다. 지난학기에
 <br>
 2022-12-22-thu
 
-1. OS의 Memory Management간단히 TIL함!
+1. OS의 Memory Management간단히 TIL함! (정리 미완료)
+
+    [**링크 : Memory ManageMent**](https://github.com/yyhh314/TIL/blob/main/OS/memory_management.md)
 2. Docker실습 하면서 내가 네트워크 지식이 많이 모자라구나 느꼈다. 하긴!! 각잡고 배운 적이 없으니까.. 아무튼 Docker라는 것을 접해봤는데, 중요하다니까 잘 다뤄보고싶다.
 
 <br>
@@ -58,7 +60,8 @@ cf. Spring은 이런 분산컴포넌트 기술에 묘하게 DI를 끌고 들어�
 SW아카데미에서 살아남으려면 좀 더 부지런해야겠다..!<br>
 
 *네트워크*
->오늘부터 네트워크 수업을 듣는다. 학부에서 아직 안 들은 과목이 네트워크, 데이터통신이라 더 궁금하고 배우고싶다.
+>오늘부터 네트워크 수업을 듣는다. 학부에서 아직 안 들은 과목이 네트워크, 데이터통신이라 더 궁금하고 배우고싶다.<br>
+[**정리 : OSI 7 layer**](https://github.com/yyhh314/TIL/blob/main/Network/OSI_7_layer.md)
 
 
 
@@ -84,9 +87,9 @@ SW아카데미에서 살아남으려면 좀 더 부지런해야겠다..!<br>
 <br>
 2022-12-28-wed
 
-오늘 하루종일 ObjectInputStream 관련된 부분 문제해결했다.<br>
-https://splendidlolli.tistory.com/549<br>
-└> 여기 정리해둠<br>
+>오늘 하루종일 ObjectInputStream 관련된 부분 문제해결했다.<br>
+**블로그에 정리 : [링크](https://splendidlolli.tistory.com/549)**<br>
+
 
 
 <br>
@@ -96,10 +99,25 @@ https://splendidlolli.tistory.com/549<br>
 *네트워크 실습 : HTTP srever using TCP socket*
 > 간단히 같은 팀원이 띄워둔 서버로 접속해보고, 내 서버로 접속하는 패킷을 캡쳐도 해봤다.
 
+*Spring logging 실습*
+> 와 log file을 이렇게 만들어서 관리할 수 있구나!<br> 나는 다른 개발자분들이 막 운영서버 로그확인해보니까 뭐가 찍혀있다 어떡하냐 이런 말씀 들을때마다 우와 나는 로그확인이라는 걸 언제 해보게 될까? 싶었는데..<br> 개발/운영하면서 이렇게 file로 맘껏 관리할 수 있다는 걸 알고 log랑 좀 친해진 느낌이 든다.
+
+*Selenium 사용해봄*
+> 진짜 신기했다. 누가 Selenuim 쓰시다가 문제생긴다고 질문하셔서 해결하느라 처음 사용해봤는데, 재밌더라!!<br>
+뿌듯한 건 문제 해결도 완전히 해드렸다는 거 ~ㅅ~..<br>
+나중에 직접 써보고 싶다.
+
 
 <br>
 <br>
 2022-12-30-fri
+
+*Socket 실습 & TCP/IP*
+
+>지난 학기에 컴프2 들으면서 socket통신을 통한 실시간 채팅 android app 구현 과제를 했던 기억이 났다. 이번에도 그런 실습을 했다. python으로 간단하게! gui 추가하는 부분도 있는데, 일단 하지 않았다. 주말에 후순위로 시간나면 해야지!<br>
+개인적인 목표 : Socket통신 프로그램을 다른거 몇개 더 만들어보고, 능숙하게 설명할 줄 알자.<br>
+추후 꼭 완성작 올리겠음!<br>
+**정리 : [HTTP 통신과 Socket 통신](https://github.com/yyhh314/TIL/blob/main/Network/HTTP_and_Socket.md)**
 
 
 <br>
