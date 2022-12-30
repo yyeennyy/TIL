@@ -119,6 +119,9 @@ SW아카데미에서 살아남으려면 좀 더 부지런해야겠다..!<br>
 추후 꼭 완성작 올리겠음!<br>
 **정리 : [HTTP 통신과 Socket 통신](https://github.com/yyhh314/TIL/blob/main/Network/HTTP_and_Socket.md)**
 
+*[DB] Transaction, ACID*
+> 야호~~
+[정리 : Transaction_ACID](https://github.com/yyhh314/TIL/blob/main/DB/Transaction_ACID.md)
 
 <br>
 <br>
