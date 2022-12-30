@@ -121,7 +121,7 @@ SW아카데미에서 살아남으려면 좀 더 부지런해야겠다..!<br>
 
 *[DB] Transaction, ACID*
 > 야호~~
-[정리 : Transaction_ACID](https://github.com/yyhh314/TIL/blob/main/DB/Transaction_ACID.md)
+[**정리 : Transaction_ACID**](https://github.com/yyhh314/TIL/blob/main/DB/Transaction_ACID.md)
 
 <br>
 <br>
