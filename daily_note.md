@@ -187,6 +187,10 @@ spring jdbc 실습
 - connection을 통해 statement를 만들고, statement를 필요에 따라 잘 세팅한 뒤 query를 시행할 수 있음!
 
 
+[**블로그에 정리3 : JdbcTemplate | 왜 Jdbc 'Template'인가? 어떤 동작을 하는가?**](https://splendidlolli.tistory.com/563)
+
+▶ JdbcTemplate을 간단히 관찰해보았다.
+
 
 <br>
 <br>
