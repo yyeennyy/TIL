@@ -155,3 +155,54 @@ spring jdbc 실습
 
 반성 : 지난주는 너무 정신없이 지나갔다. 이번주는 다시 원래 텐션 되찾기로 하겠다. 
 
+
+<br>
+<br>
+2023-01-11-wed
+
+[**블로그에 정리1 : mysql 서버 상태 확인하기(show status) | db connection 전후 Threads 관련 상태변수 확인**](https://splendidlolli.tistory.com/560)
+
+[**블로그에 정리2 : \[JDBC\] DB Connection 얻어 query 실행 | DriverManager과 DataSource를 통하여 (+ Connection Pool 개념)**](https://splendidlolli.tistory.com/561)
+
+▶ JDBC와 JDBC driver?
+
+- JDBC는 DB를 사용가능케 하는 java의 api이며
+
+- JDBC driver는 JDBC api가 특정 DBSM에 연결할 수 있게 하는 driver임!
+
+    DBSM에 따라 적절한 driver를 설치해 사용!
+
+   
+
+▶ DB 연결한다는 것은 Connection 객체를 얻는 것임
+
+- Connection 객체를 얻는 방법으로 DriverManager, DataSource를 공부!
+
+- 이때 Connection Pool 개념을 학습하게 됨!
+
+ 
+
+▶ Connection을 받아온 뒤 query를 날리는 과정을 공부함
+
+- connection을 통해 statement를 만들고, statement를 필요에 따라 잘 세팅한 뒤 query를 시행할 수 있음!
+
+
+
+<br>
+<br>
+2023-01-12-thu
+
+
+<br>
+<br>
+2023-01-13-fri
+
+
+<br>
+<br>
+2023-01-14-sat
+
+
+<br>
+<br>
+2023-01-15-son
