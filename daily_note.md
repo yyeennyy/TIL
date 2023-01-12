@@ -196,6 +196,9 @@ spring jdbc 실습
 <br>
 2023-01-12-thu
 
+JdbcTemplate 추가 실습
+
+그리고 Spring AOP <- 내일 이어서 해야한다 !
 
 <br>
 <br>
