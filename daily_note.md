@@ -186,7 +186,6 @@ spring jdbc 실습
 
 - connection을 통해 statement를 만들고, statement를 필요에 따라 잘 세팅한 뒤 query를 시행할 수 있음!
 
-
 [**블로그에 정리3 : JdbcTemplate | 왜 Jdbc 'Template'인가? 어떤 동작을 하는가?**](https://splendidlolli.tistory.com/563)
 
 ▶ JdbcTemplate을 간단히 관찰해보았다.
@@ -196,13 +195,22 @@ spring jdbc 실습
 <br>
 2023-01-12-thu
 
-JdbcTemplate 추가 실습
+NamedParameterJdbcTemplate 실습
+> 쿼리에 값을 전달할 때 ?로 표기되는 placeholder를 사용하지 않고 이름 기반으로 파라미터를 전달할 수 있게 기존 코드를 변경해봄
 
-그리고 Spring AOP <- 내일 이어서 해야한다 !
+> 순서 말고 키로 매핑되므로 index 실수를 줄일 수 있다. 이때 매핑을 위해 파라미터 Map을 함께 전달했다. 
+
+> 실습때 RowMapper도 처음 사용해봄. 말그대로 Row Mapper인 것 같다. ResultSet이랑 index가 들어오면 거기 해당하는 객체 반환해주는 Row Mapper! findAll처럼 조회하는 query()에 sql문과 RowMapper를 전달했었음!
+
+Spring AOP
+> 이 실습은 여러번 보고 익숙해져야겠다. 덜 소화했다.
+
 
 <br>
 <br>
 2023-01-13-fri
+
+오늘은 역량평가를 봤는데.. 공부 열심히 해야겠네 김옌...
 
 
 <br>
@@ -213,3 +221,22 @@ JdbcTemplate 추가 실습
 <br>
 <br>
 2023-01-15-son
+
+히루종일 팀개발만 함!
+
+블로그에 간단히 글도 하나 씀 : [**docker에 띄운 mysql 접속**](https://splendidlolli.tistory.com/565)
+
+<br>
+<br>
+2023-01-16-mon
+
+오늘도 팀프로젝트에 집중함
+
+여러가지를 고민해볼 수 있었음
+
+- 특정 도메인과 관련된 여러 Dto를 깔끔하기 관리하기 위해 static 중첩 클래스 구조를 두는 방식
+- Dto에 Getter를 둬야지 Json으로 변환될 수 있다는 것 : ResponsEntity가 매핑해주는 과정을 공부하면 된다!
+- 논리적인 상속 구조를 join 전략으로 DB에 나타냈었는데, 그래서인지 개발하면서도 계속 DB 설계 관련된 걸 찾아보게되었다. 김영한선생님의 "자바 ORM 표준 JPA 프로그래밍" 이거 공부하고 싶어졌다. 여기 고급 매핑 정보들이 나오는데, 내가 참고한 포스팅들이 다 이걸 기반으로 한 글이더라고..
+
+
+
