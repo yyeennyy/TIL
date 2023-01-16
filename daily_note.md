@@ -224,19 +224,28 @@ Spring AOP
 
 히루종일 팀개발만 함!
 
-블로그에 간단히 글도 하나 씀 : [**docker에 띄운 mysql 접속**](https://splendidlolli.tistory.com/565)
+[**블로그에 간단히 글도 하나 씀 : docker에 띄운 mysql 접속**](https://splendidlolli.tistory.com/565)
 
 <br>
 <br>
 2023-01-16-mon
 
-오늘도 팀프로젝트에 집중함
-
-여러가지를 고민해볼 수 있었음
+오늘도 팀프로젝트에 집중하면서 여러가지를 고민해볼 수 있었음
 
 - 특정 도메인과 관련된 여러 Dto를 깔끔하기 관리하기 위해 static 중첩 클래스 구조를 두는 방식
-- Dto에 Getter를 둬야지 Json으로 변환될 수 있다는 것 : ResponsEntity가 매핑해주는 과정을 공부하면 된다!
+- Dto에 Getter를 둬야지 Json으로 변환될 수 있다는 것 : ResponsEntity가 매핑해주는 과정을 공부하면 된다! [**기록**](https://splendidlolli.tistory.com/566)
 - 논리적인 상속 구조를 join 전략으로 DB에 나타냈었는데, 그래서인지 개발하면서도 계속 DB 설계 관련된 걸 찾아보게되었다. 김영한선생님의 "자바 ORM 표준 JPA 프로그래밍" 이거 공부하고 싶어졌다. 여기 고급 매핑 정보들이 나오는데, 내가 참고한 포스팅들이 다 이걸 기반으로 한 글이더라고..
 
 
+Spring AOP좀 공부+정리해뒀다
 
+[**블로그 글 : Spring AOP 쉽게 이해하기 | 그리고 간단한 예제코드**](https://splendidlolli.tistory.com/567)
+
+
+<br>
+<br>
+2023-01-17-tue
+
+<br>
+<br>
+2023-01-18-wed
