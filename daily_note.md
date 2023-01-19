@@ -246,6 +246,28 @@ Spring AOP좀 공부+정리해뒀다
 <br>
 2023-01-17-tue
 
+transaction 실습
+
+
+
 <br>
 <br>
 2023-01-18-wed
+
+web 구조 오버뷰
+
+
+<br>
+<br>
+2023-01-19-thu
+
+> 우리가 Springboot를 쓰면 Dispatcher Serlvet, HandlerMapping, HandlerAdapter, ViewResolver 이런 거 다 셋업할 필요가 없다. 그냥 Controller만 작성하면 원하는 결과가 나오기 때문이다. 하지만 너무 자주 사용하고 있는 Controller의 http 요청 처리 흐름을 알고 쓰는 것이 적절한 태도이기 때문에 포스팅해보았다.
+
+[**블로그 : Spring MVC | Controller는 어떻게 요청을 처리하는 걸까? | Controller와 Servlet**](https://splendidlolli.tistory.com/570)
+
+
+<br>
+<br>
+2023-01-20-fri
+
+
