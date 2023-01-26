@@ -336,6 +336,12 @@ JPA 실습하면서 H2 db를 사용했는데 아직도 이해가지 않는 문�
 <br>
 2023-01-26-thu
 
+어제 create-drop 설정 안 먹는 문제 해결했다 (바로 다음강의에서 정정해주셨다는...)
+
+> 테스트에서 JpaProperties를 통해 jpa properties 설정을 가져왔었다. 그런데 잘못된 설정에서는 jpa의 바로 아래에 ddl-auto: create-drop 설정을 두었기 때문에 설정을 가져오지 못했던 것이다. JpaProperties를 통해 가져오려면 jpa: 아래에 properties: 아래에 두어야 가능했음!
+
+
+
 <br>
 <br>
 2023-01-27-fri
