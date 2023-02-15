@@ -1,0 +1,55 @@
+# main.tf 에는 무슨 내용이 있는지 살펴봅시다!
+
+# 제공자 정보
+provider "ncloud" {
+support_vpc = true
+region = "KR"
+access_key = var.access_key
+secret_key = var.secret_key
+}
+
+
+# VPC 설정하는 부분
+resource "ncloud_vpc" "vpc_edu_01" {
+name = var.name_edu01
+ipv4_cidr_block = "172.16.0.0/16"
+}
+
+# 서브넷 설정 부분
+resource "ncloud_subnet" "subnet_edu_01_public" {
+name = "${var.name_edu01}-public"
+vpc_no = ncloud_vpc.vpc_edu_01.vpc_no
+subnet = cidrsubnet(ncloud_vpc.vpc_edu_01.ipv4_cidr_block, 8, 1)
+zone = "KR-2"
+network_acl_no = ncloud_network_acl.network_acl_02_public.id
+subnet_type = "PUBLIC" // PUBLIC(Public)
+}
+
+
+
+# Network ACL 설정 부분
+resource "ncloud_network_acl" "network_acl_02_public" {
+vpc_no = ncloud_vpc.vpc_edu_01.id
+name = "${var.name_edu01}-public"
+}
+resource "ncloud_network_acl" "network_acl_02_private" {
+vpc_no = ncloud_vpc.vpc_edu_01.id
+name = "${var.name_edu01}-private"
+}
+
+
+# Login Key (pem 키)
+resource "ncloud_login_key" "key_edu_01" {
+key_name = var.name_edu01
+}
+
+
+# Server
+# for Front-end (bastion) server
+resource "ncloud_server" "server_edu_01_public" {
+subnet_no = ncloud_subnet.subnet_edu_01_public.id
+name = "${var.name_edu01}-public"
+server_image_product_code = "SW.VSVR.OS.LNX64.CNTOS.0703.B050"   # <= 따로 제품코드 찾아 넣으면 됨!
+login_key_name = ncloud_login_key.key_edu_01.key_name    # <= pem key 정보!
+}
+

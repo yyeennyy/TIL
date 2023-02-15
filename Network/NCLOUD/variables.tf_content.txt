@@ -1,0 +1,18 @@
+# variables.tf 에는 무슨 내용이 있는지 살펴봅시다!
+
+# main.tf에서 봤던 변수들을 확인 가능!
+
+variable name_edu01 {
+        default =  "tf-edu01"
+}
+variable client_ip {
+        default = "0.0.0.0/0" // To access ssh
+}
+variable access_key {
+        default = "~~~~"
+}
+variable secret_key {
+        default = "~~~~~~~"
+}
+
+# 원하는 계정에서 Access Key랑 Secret Key 발급받아서 넣어주면 된다.
